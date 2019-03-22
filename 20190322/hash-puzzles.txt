@@ -21,5 +21,7 @@
 3. Given a file with whatever text, create a hash representing the number of times each word appears.
     Once you have that working, print the words and their counts in descending order (highest count first)
     You can use walrus-and-carpenter.txt to test your script.
-    - how are you going to handle capitalization?
-    - how are you going to handle punctuation?
+
+    Bonus:
+    - how do you handle capitalization?
+    - how do you handle punctuation?
