@@ -1,0 +1,35 @@
+1. FizzBuzz
+
+Write a script called 'fizzbuzz.rb' that prints all numbers from 1 to 100 (inclusive)
+BUT:
+- if the number is divisible by 3, print 'Fizz'.
+- if the number is divisible by 5, print 'Buzz'.
+- if the number is divisible by both 3 and 5, print 'FizzBuzz'.
+
+
+
+
+
+2. FizzBuzz with customizable range (bit harder)
+
+Write a function that fizzbuzzes from any start integer to any end integer
+- there are multiple ways to provide the start/end numbers and they're all good
+- e.g. `fizzbuzz(1, 100)` or `fizzbuzz(6..28)`
+
+
+
+
+
+
+3. FizzBuzz with customizable behavior (much harder)
+
+Make your fizzbuzz function take one more parameter that tells the function to print
+anything you want based on whatever divisibility rules you want
+
+e.g. print Chicken, Duck, Goose, or Turkey if the number is divisible by 3, 4, 5, or 7
+`fizzbuzz(1, 100, bird_conditions)`
+
+there are a lot of ways to do this and they're all fine as long as the birds and numbers
+are given to the fizzbuzz function, and do not appear inside the fizzbuzz function.
+
+This one requires techniques I haven't mentioned, so Google around for inspiration!

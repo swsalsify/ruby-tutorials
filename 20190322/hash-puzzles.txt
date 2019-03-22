@@ -1,0 +1,25 @@
+1. Create a Hash that maps each letter to its index in the alphabet
+    { a: 0, b: 1, ... }
+    { 'a' => 0, ... }
+
+
+
+
+
+
+2. Create a function that takes an array of words ['apple', 'banana', 'carrot'] and returns one of these:
+    A) a hash that maps words to word lengths -- { apple: 5, banana: 6, ... }
+    B) a hash that maps word lengths to an array of words whose length is that -- { 5: ['apple'], 6: ['banana', 'carrot'] }
+
+
+
+
+
+
+
+
+3. Given a file with whatever text, create a hash representing the number of times each word appears.
+    Once you have that working, print the words and their counts in descending order (highest count first)
+    You can use walrus-and-carpenter.txt to test your script.
+    - how are you going to handle capitalization?
+    - how are you going to handle punctuation?
