@@ -1,0 +1,8 @@
+Rubular - Useful site for testing out regular expressions, includes a reference table with all the common meta-characters.
+https://rubular.com/
+
+Debuggex - Another site for testing out regular expressions, includes a nice visualization of the regular expression but does not have a reference for common meta-characters.
+https://www.debuggex.com/
+
+Ruby Regexp documentation - This page has documentation for the "Regexp" class, including the functions defined for this class, but also has a lot of generally helpful regex info.
+https://ruby-doc.org/core-2.4.1/Regexp.html
