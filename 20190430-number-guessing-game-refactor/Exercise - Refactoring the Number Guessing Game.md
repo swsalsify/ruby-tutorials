@@ -6,6 +6,7 @@ Specifically, we're going to add some new functions to handle certain parts of t
 
 Our final result should have a function called "play" that looks something like this:
 
+```ruby
 def play
   magic_number = generate_magic_number
   is_guessing = true
@@ -16,6 +17,7 @@ def play
     handle_result(is_guessing)
   end
 end
+```
 
 Notice that this function calls other functions. We will have to define those functions ourselves.
 
