@@ -46,9 +46,9 @@ Modifiers (these characters don't match anything themselves, but change the way 
 
 ? - Match up to one instance of the previous character. Makes the previous character optional.
 
-* - Match zero or more of the previous character.
+\* - Match zero or more of the previous character.
 
-+ - Match one or more of the previous character.
+\+ - Match one or more of the previous character.
 
 | - Match either the pattern on the left or the pattern on the right.
 
