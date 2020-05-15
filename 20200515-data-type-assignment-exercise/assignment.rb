@@ -63,13 +63,12 @@ def check_your_answer(unassigned_attributes,final_hash)
     puts "ogawd that\'s not a field value"
     puts "#{your_answer}"
   elsif your_answer.keys != solution.keys
-    difference = solution.keys - your_answer.keys 
-    if difference == solution 
-      puts "so, looks like your answer doesnt have any of the keys we need ;_;"
-    else your_answer.length > solution.length
+    if your_answer.length > solution.length
+      difference = your_answer.keys - solution.keys
       puts 'looks like your answer has fields we dont want!'
       puts "try removing the following fields #{difference}"
     elsif your_answer.length < solution.length
+      difference = solution.keys - your_answer.keys 
       puts 'looks like your answer doesnt have all the fields we want!'
       puts "try adding the following fields #{difference}"
     end 
